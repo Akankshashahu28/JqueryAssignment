@@ -1,0 +1,49 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    background-color:rgb(241, 219, 238);
+}
+.container{
+    margin-left: 10px;
+}
+.box{
+    top: 20px;
+    padding: 10px;
+}
+.card-title{
+    background-image: linear-gradient(to right, #a0dae5, #9c8c5c, #ffff00);}
+
+.inside {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    padding: 10px;
+}
+#zoomimgage {
+    position: relative;
+    display: none;
+}
+.closeimg,.zoomIn-img,.zoomOut-img{
+    display: none;
+}
+.closeimg {
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    top: 95px;
+    left:405px;
+}
+.zoomIn-img {
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    top: 36px;
+    left:405px;
+}
+.zoomOut-img {
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    top: 64px;
+    left:405px;
+}
